@@ -121,7 +121,7 @@ import { CookieBanner, useConsent } from '@clickpunk/cookie-consent'
 
 ## Preview
 
-![Cookie Banner Preview](https://raw.githubusercontent.com/mrshed21/cookie-consent/blob/main/assets/preview.png)
+![Cookie Banner Preview](https://raw.githubusercontent.com/mrshed21/cookie-consent/main/assets/preview.png)
 
 
 ## License
