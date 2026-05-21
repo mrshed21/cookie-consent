@@ -118,6 +118,12 @@ import { CookieBanner, useConsent } from '@clickpunk/cookie-consent'
 - More languages
 - Callback props: `onAccept`, `onReject`
 
+
+## Preview
+
+![Cookie Banner Preview](https://raw.githubusercontent.com/clickpunk/cookie-consent/main/assets/preview.png)
+
+
 ## License
 
 MIT
