@@ -1,6 +1,6 @@
 {
   "name": "@clickpunk/cookie-consent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A GDPR-compliant cookie consent banner for React with Tailwind CSS",
   "main": "src/index.js",
   "type": "module",
