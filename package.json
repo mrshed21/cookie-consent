@@ -1,0 +1,30 @@
+{
+  "name": "@clickpunk/cookie-consent",
+  "version": "1.0.0",
+  "description": "A GDPR-compliant cookie consent banner for React with Tailwind CSS",
+  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    }
+  },
+  "scripts": {
+    "build": "echo 'No build step required - ES modules distributed as-is'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": [
+    "cookie",
+    "consent",
+    "gdpr",
+    "react",
+    "tailwind"
+  ],
+  "author": "Clickpunk",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
