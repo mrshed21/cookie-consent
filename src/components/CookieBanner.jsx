@@ -3,7 +3,7 @@ import { useConsent } from '../hooks/useConsent.js'
 import { content } from '../i18n/content.js'
 
 export function CookieBanner({
-  companyName = 'Stockholm Relining',
+  companyName = 'your company name',
   email = 'info@foretag.se',
   primaryColor = '#1a7a4a',
   language = 'sv',
