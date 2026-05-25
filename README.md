@@ -417,4 +417,4 @@ import type {
 
 ## License
 
-MIT © [Clickpunk](https://github.com/clickpunk)
+MIT © 
