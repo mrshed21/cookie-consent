@@ -7,13 +7,19 @@
   "type": "module",
   "exports": {
     "./react": {
-      "import": "./src/react/index.ts",
-      "types": "./src/react/index.ts"
+      "types": "./dist/react/index.d.ts",
+      "import": "./dist/react/index.js",
+      "require": "./dist/react/index.cjs"
     }
   },
   "files": [
-    "src"
+    "dist"
   ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "cookie",
     "consent",
@@ -28,6 +34,7 @@
     "react-dom": ">=18.0.0"
   },
   "devDependencies": {
+    "tsup": "^8.0.0",
     "typescript": "^5.0.0",
     "@types/react": "^18.0.0"
   }
